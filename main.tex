@@ -1,0 +1,75 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{cite}
+
+\title{Test Thesis Document}
+\author{Test Author}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This is a sample thesis document for testing local compilation and CI/CD workflows. It includes basic LaTeX elements such as sections, equations, citations, and tables.
+\end{abstract}
+
+\section{Introduction}
+
+This is the first section of the test document. We will demonstrate various LaTeX features including mathematical formulas, citations, and basic formatting.
+
+\subsection{Background}
+
+According to recent research\cite{sample2024}, this field has gained significant importance. Here is an example of a mathematical equation:
+
+\begin{equation}
+    E = mc^2
+\end{equation}
+
+\begin{equation}
+    \int_{0}^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
+\end{equation}
+
+\section{Methodology}
+
+This section describes the research methodology. We employed multiple techniques\cite{method2023} to address the problem.
+
+\subsection{Experimental Design}
+
+The experiment includes the following steps:
+\begin{itemize}
+    \item Data collection
+    \item Data preprocessing
+    \item Model training
+    \item Results evaluation
+\end{itemize}
+
+\section{Results}
+
+Table example:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Method & Accuracy & F1-Score \\
+\hline
+Method A & 0.85 & 0.83 \\
+Method B & 0.90 & 0.88 \\
+Our Method & \textbf{0.95} & \textbf{0.93} \\
+\hline
+\end{tabular}
+\caption{Performance comparison of different methods}
+\label{tab:results}
+\end{table}
+
+\section{Conclusion}
+
+This paper proposes a new method and validates its effectiveness through experiments. Future work will further improve this approach\cite{future2024}.
+
+\bibliographystyle{plain}
+\bibliography{ref}
+
+\end{document}
