@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{method2023}
+Robert Brown and Sarah Davis.
+\newblock Novel approaches to data processing.
+\newblock In {\em Proceedings of the International Conference on Data Science},
+  pages 456--467, New York, NY, USA, 2023. ACM.
+
+\bibitem{sample2024}
+John Smith and Mary Johnson.
+\newblock A survey on machine learning applications.
+\newblock {\em Journal of Computer Science}, 42(3):123--145, March 2024.
+
+\bibitem{future2024}
+James Wilson, Emily Taylor, and Michael Anderson.
+\newblock Future directions in computational methods.
+\newblock {\em IEEE Transactions on Pattern Analysis}, 15(2):78--92, 2024.
+
+\end{thebibliography}
